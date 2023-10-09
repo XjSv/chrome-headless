@@ -93,4 +93,8 @@ CMD [ \
 "--safebrowsing-disable-auto-update", \
 # Make use of user data directory
 "--user-data-dir" \
+# The /dev/shm partition is too small in certain VM environments, causing Chrome to fail or crash. Use this flag to work-around this issue.
+"--disable-dev-shm-usage" \
+# Disable the GPU
+"--disable-gpu" \
 ]
