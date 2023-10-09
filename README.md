@@ -39,9 +39,9 @@ In most cases, these messages can be safely ignored. They will sometimes change 
 
 ## Building and Pushing
 
-To build, `./build.sh <tag>`, for example `./build.sh art4003/chrome-headless:20231002-chromium`
+To build, `./build.sh <tag>`, for example `./build.sh art4003/chrome-headless:20231009-chromium`
 
-To push, `./build.sh <tag>`, for example `./push.sh art4003/chrome-headless:20231002-chromium`. This will push both amd64 and arm64 images.
+To push, `./build.sh <tag>`, for example `./push.sh art4003/chrome-headless:20231009-chromium`. This will push both amd64 and arm64 images.
 
 # Compatibility
 
