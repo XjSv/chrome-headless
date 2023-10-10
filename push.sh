@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ $# != 1 ]; then
-  echo "\$1 must be the push-to image, like art4003/chrome-headless:20231009-chromium" && exit 1
+  echo "\$1 must be the push-to image, like art4003/chrome-headless:latest" && exit 1
 fi
 pushto=$1
 
